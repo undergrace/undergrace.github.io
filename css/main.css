@@ -4022,3 +4022,28 @@ form .inputs-description {
 /* ------------------------------------------------*/
 /* Google Map End */
 /* ------------------------------------------------*/
+
+@media (max-width: 425px) {
+	#headline .outline-white.large-screen {
+		display: none;
+	}
+}
+@media (min-width: 426px) and (max-width: 767px) {
+	#headline .outline-white.small-screen {
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	#headline .outline-white.large-screen {
+		display: none;
+	}
+}
+@media (min-width: 1025px) {
+	#headline .outline-white.small-screen {
+		display: none;
+	}
+}
+
+span.skill-bar-percent {
+	display: none;
+}
